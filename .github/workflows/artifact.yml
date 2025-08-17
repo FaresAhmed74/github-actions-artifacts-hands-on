@@ -31,9 +31,10 @@ jobs:
       uses: actions/download-artifact@v4
       with: 
         name: hello-artifact
-        artifact: ./artifacts
+        path: ./artifacts
 
     - name: Display the content of the file
       run: echo ./artifacts/hello.txt     
           
+
 
