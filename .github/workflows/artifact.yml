@@ -34,7 +34,8 @@ jobs:
         path: ./artifacts
 
     - name: Display the content of the file
-      run: echo ./artifacts/hello.txt     
+      run: cat ./artifacts/hello.txt     
           
+
 
 
